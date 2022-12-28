@@ -48,7 +48,7 @@ string PrintArray(string[] array)
 }
 
 // Клиентский код
-string[] lastArray = { "1234", "2", "computer science", "-2", ":-)" };
+string[] lastArray = {"1234", "1567", "-2", "computer science"};
 int n = 3;
 string[] newArray = CreateNewArray(CountOfElements(lastArray, n));
 Console.WriteLine(PrintArray(FillArray(lastArray, newArray, n)));
